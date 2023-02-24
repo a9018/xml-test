@@ -21,6 +21,15 @@ function empDetails(xml) {
 		`<tr><th>Firstname</th><th>Lastname</th>
 					<th>Title</th><th>Division</th>
 					<th>Building</th><th>Room</th>
+					<th>Firstname2</th><th>Lastname2</th>
+					<th>Title2</th><th>Division2</th>
+					<th>Building2</th><th>Room2</th>
+<th>Firstname</th><th>Lastname</th>
+					<th>Title</th><th>Division</th>
+					<th>Building</th><th>Room</th>
+					<th>Firstname2</th><th>Lastname2</th>
+					<th>Title2</th><th>Division2</th>
+					<th>Building2</th><th>Room2</th>
 				</tr>`;
 	var x = xmlDoc.getElementsByTagName("employee");
 
@@ -37,8 +46,39 @@ function empDetails(xml) {
 				.childNodes[0].nodeValue + "</td><td>" +
 			x[i].getElementsByTagName("building")[0]
 				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
 			x[i].getElementsByTagName("room")[0]
-				.childNodes[0].nodeValue + "</td></tr>";
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + "</td><td>" +
+			x[i].getElementsByTagName("building")[0]
+				.childNodes[0].nodeValue + 
+			"</td></tr>";
 	}
 
 	// Print the xml data in table form
